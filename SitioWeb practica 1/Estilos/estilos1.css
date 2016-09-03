@@ -1,0 +1,290 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: Helvetica, Arial;
+	}
+
+nav ul li {
+	display: inline-block; /*Para ubicar el menu de forma horizontal en una sola linea*/
+	padding: 10px;
+	font-size: 1.5em;
+	font-family: helvetica, Arial;
+	margin-right: 15px;
+	background: white;
+	color: black;
+
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+li:hover{  /*PAra cuando es Mouse este encima*/
+	border-bottom: 2px solid red;
+}
+
+nav{
+	margin-top: 15px;
+	margin-bottom: 15px;
+	text-align: center;
+
+}
+
+header{
+	background: #9687E1;
+	margin-top: 25px;
+	margin-bottom: 40px;
+	text-align: center;
+	height: 500px;
+	font-family: Helvetica, Arial;
+}
+
+header h2 {
+	padding-top: 200px;
+	color: white
+}
+
+header h6{
+	color: white;
+	padding-top: 20px;
+	font-style: italic;
+
+}
+
+header button{
+	background: red;
+	color: white;
+	padding: 10px;
+	margin-top: 20px;
+	border: none; 
+}
+
+header button:hover{
+	border: 1px solid #FFFFFF;
+}
+
+section.sec1 {
+
+
+	padding: 40px;
+
+
+}
+
+section.sec1 h2{
+	text-align: center; 
+}
+
+hr{
+	margin-bottom: 20px;
+	border: 1px solid red;
+	width: 10%;
+	margin-left: 45%;
+
+}
+
+
+
+article{
+	width: 40%;
+	display: inline-block;
+	padding: 40px;
+	vertical-align: top;
+}
+
+section.sec1 article.art1 img{
+ 
+ 	padding: 50px;
+
+}
+ 
+section.sec1 article.art2{
+
+	text-align: justify;
+	padding: 50px
+
+}
+
+section.sec1 article.art2 button{
+	background: white;
+	color: black;
+	padding: 15px;
+	border: 1px solid red;
+	font-family: Helvetica, Arial;
+
+}
+section.sec1 article.art2 button:hover{
+
+	background: red;
+	color: white;
+	border:none;
+}
+
+section.sec2 {
+	padding: 40px;
+	background: #E0DDDD;
+
+}
+
+
+section.sec2 h2{
+	text-align: center;
+}
+
+section.sec2 article.art1{
+	width: 25%;
+	color: gray;
+	display: inline-block;
+	padding: 50px;
+	vertical-align: top;
+}
+
+section.sec2 article.art1 h4{
+	text-align: right;
+
+}
+
+section.sec2 article.art1 p{
+	text-align: right;
+
+	}
+
+section.sec2 article.art2{
+	width: 25%;
+	padding: 50px;
+}
+
+section.sec2 article.art3{
+	width: 25%;
+	color: gray;
+	display: inline-block;
+	padding: 50px;
+	vertical-align: top;
+}
+section.sec3{
+	padding: 20px;
+}
+section.sec3 h2{
+	text-align: center;
+}
+
+section.sec3 article.art1{
+	width: 23%;
+	padding: 10px;
+}
+
+section.sec3 article.art2{
+	width: 23%;
+	padding: 10px;
+}
+
+section.sec3 article.art3{
+	width: 23%;
+	padding: 10px;
+}
+
+section.sec3 article.art4{
+	width: 23%;
+	padding: 10px;
+}
+
+img{
+	max-width: 100%;
+}
+
+img.imagen{
+ 	width: 100%;
+ 	height: 400px;
+ 	padding-top: 10px;
+ 	padding-bottom: 20px;
+ }
+
+ section.sec4{
+ 	display: inline-block;
+ 	padding: 20px;
+ 	padding-top: 20px;
+	background: #E0DDDD;
+ }
+
+ section.sec4 h2{
+ 	text-align: center;
+
+ }
+
+ section.sec4 article.art1{
+	width: 40%;
+	color: gray;
+	padding: 40px;
+}
+ 
+ h4{
+ 	padding-bottom: 20px;
+ 	color: black;
+}
+
+ section.sec4 article.art1 p{
+ 	text-align: justify;
+ 	padding-bottom: 20px;
+	width: 100%
+ }
+
+  section.sec4 article.art1 input.texto{
+ 
+ 	padding: 10px;
+ 	width: 42%;
+  	margin-right: 31px;
+
+ }
+
+   section.sec4 article.art1 input.email{
+ 
+ 	padding: 10px;
+ 	width: 42%;
+ 	
+
+ }
+    section.sec4 article.art1 textarea.txt{
+
+ 	padding: 30px;
+ 	width: 90%;
+
+
+ }
+
+    section.sec4 article.art1 input.Boton{
+  
+ 	padding: 10px;
+ 	width: 100%;
+ 	background: red;
+ 	color: white;7
+ 	border: none;
+
+ }
+
+     section.sec4 article.art1 input.Boton :hover{
+  
+ 	padding: 10px;
+ 	width: 100%;
+ 	background: red;
+ 	color: white;
+ 	border: 1px solid white;
+ 	 	
+ }
+
+ section.sec4 article.art2 {
+ 	width: 40%;
+	color: gray;
+	padding: 40px;
+ }
+
+ footer{
+ 	padding: 25px;
+ 	text-align: center;
+ 	background: red;
+ 	color: white;
+ }
+

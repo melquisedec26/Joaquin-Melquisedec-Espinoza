@@ -1,0 +1,170 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+a{
+	color: white;
+	font-size: 14px;
+	padding: 20px;
+	text-decoration: none;
+	-webkit-transition:all 0.5s ease;
+}
+
+a:hover{
+	color: black;
+}
+
+
+body{
+	background: black;
+	font-family: Helvetica;
+}
+
+
+header{
+	border: 4px solid #A49DD5;
+	color: white;
+	margin: 15px;
+	margin-top: 115px;
+	padding: 40px;
+	text-align: center;
+
+}
+
+h1{
+	text-shadow: #0ff 2px 2px 20px;
+}
+
+hgroup h2{
+	color: #E0F089;
+	text-shadow: #0ff 2px 2px 20px;
+	margin-top: 5px;
+}
+
+
+nav{
+	background: rgba(60,60,150,0.8);
+	padding: 30px;
+	text-align: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+
+}
+
+nav ul li {
+	background: #F24E4E;
+	border-radius: 8px;
+	display: inline-block;
+	margin-right: 12px;
+	padding: 10px;
+
+}
+
+nav ul li:hover{
+	background: white;
+	color: black;
+	transform: scale(1.2) rotate(-5deg);
+	transition: all 0.5s ease;
+}
+
+main{
+
+
+}
+
+main section article{
+	display: inline-block;
+	vertical-align: top;
+	text-align: justify;
+}
+.art1{
+	
+	width: 40%;
+	margin: 12px;
+}
+.art2{
+	background: white;
+	width: 50%;
+}
+
+.formulario{
+	background: #F7B44B;
+	padding: 15px;
+	text-align: center;
+	opacity: 0;
+	height: 0;
+}
+
+.enviar{
+	height: 3em;
+	font-size: 16px;
+	font-weight: bold;
+
+
+}
+
+.enviar:hover{
+	border:3px solid blue;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+textarea{
+	width: 100%;
+}
+
+
+
+
+input{
+	width: 100%;
+	margin-bottom: 8px;
+	height: 2em;
+}
+
+input [submit]{
+
+}
+
+footer{
+	padding: 20px;
+	background: orange;
+	margin-top: 15px;
+	text-align: center;
+}
+
+section{
+	margin-left: 6px;
+	color: white;
+}
+
+figure img{
+	width: 100%;
+
+}
+
+figcaption{
+	background: white;
+	color: black;
+	margin-left: 30px;
+	padding: 20px;
+
+}
+
+main{
+	margin-top: 15px;
+}
+
+
+
+img{
+	width: 100%;
+}
+
+
+
+
+
